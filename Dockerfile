@@ -1,8 +1,8 @@
 FROM python:3.9.4-slim
 
-COPY . C:/Env/app/
+COPY . /epoch/
 
-WORKDIR C:/Env/app/
+WORKDIR /epoch/
 
 RUN pip install  --no-cache-dir --upgrade -r requirements.txt
 
