@@ -24,7 +24,6 @@ load_dotenv()
 
 #SQLALCHEMY_DATABASE_URI = "postgresql://postgres:postgres@db:5432/postgres"
 SQLALCHEMY_DATABASE_URL = "postgresql://postgres:kombucha@db:5432/dev_db"
-#SQLALCHEMY_DATABASE_URL = "postgresql://username:password@db:5432/nudges"
 
 #engine = create_engine(db_conn_string, connect_args=connect_args)
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
